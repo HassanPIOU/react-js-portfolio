@@ -1,0 +1,225 @@
+
+/*==========================================================
+    Template Name: Mim Personal Portfolio Template
+    Created By: RegalTheme
+    Envato Profile: https://themeforest.net/user/regaltheme
+    Website: http://regaltheme.com
+    Description: Mim is Fully Responsive Personal Portfolio Template with awesome features.
+    Version: v1.1
+    Support: http://regaltheme.com/support
+============================================================*/
+
+
+/* google fonts
+========================== */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+
+/* css files
+====================== */
+@import url('css/bootstrap.min.css');
+@import url('css/material-design-iconic-font.min.css');
+@import url('css/slick.min.css');
+@import url('css/jquery.fancybox.css');
+@import url('css/style.css');
+@import url('css/responsive.css');
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .mobile {
+        display: block;
+    }
+}
+
+
+.bg-white {
+    background: #fff !important;
+}
+
+.experienceNumber{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 150px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.experienceNumber sub {
+    font-size: 20px;
+}
+
+.single-info{
+    margin-bottom: 20px;
+}
+
+.blognotexist{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form-error{
+    font-size: 12px;
+    color: #ff6b6b;
+}
+
+
+.comment__form{
+
+}
+
+.comment__form input ,.comment__form textarea{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+.likeBlogIcon {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.likeBlogIcon .iconContent{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.likeBlogIcon .iconContent i {
+    color: #aaa;
+}
+
+.likeBlogIcon:hover .iconContent{
+    transform: scale(0.9);
+    background: rgba(214, 26, 67, 0.53);
+}
+
+.likeBlogIcon:hover .iconContent i{
+    color: #d61a43;
+}
+
+
+
+.article__st{
+    margin-top: -20px;
+    text-align: right;
+}
+
+.article__st span{
+    padding: 10px;
+}
+
+.like{
+    color: #d61a43;
+}
+.like .iconContent {
+    background: rgba(214, 26, 67, 0.53);
+}
+
+
+.like .iconContent i {
+    color : #d61a43
+}
+
+
+.tags span{
+    color: #232323;
+    padding-left: 10px;
+}
+.postHeader{
+    text-align: center;
+    font-weight: bold;
+    color: #eff0f0;
+    margin-top: 30px;
+    font-size: 150px;
+    font-family: "Arial Black";
+}
+.postHeaderSecond{
+    text-align: center;
+    color: #101010;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Arial Black";
+    font-size: 80px;
+}
+
+.single-post i {
+    color: #101010;
+}
+
+
+.arrowbackBtn{
+    border: none;
+    background: transparent;
+    position: fixed;
+    left: 10%;
+    font-size: 15px;
+    display: flex;
+    z-index: 99999999999999;
+}
+
+.arrowbackBtn i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.block-title h3:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: -1px;
+    background-color: #232323;
+}
+
+
+.block-title h3 {
+    display: inline-block;
+    margin: 0 0 15px;
+    padding-bottom: 3px;
+}
+
+.project-general-info{
+  list-style : none;
+    padding :0;
+    margin : 0 0 15px;
+}
+
+.shareGroup {
+    list-style: none;
+     right: 20px;
+    position: fixed;
+}
+.shareGroup li{
+    margin-left: 10px;
+}
+
+.tagsList{
+    padding-bottom: 20px;
+}
+
+.tagsList span{
+    background: #f1f1f1;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+
+.myAbout{
+
+}
+

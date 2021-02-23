@@ -1,0 +1,37 @@
+
+.contentError{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 40px 10px 40px 10px;
+    border-radius: 10px;
+    display: block;
+}
+.contentError .titleError{
+    display: block;
+    font-size: 180px;
+    color: #202020;
+    font-weight: bold;
+    -webkit-animation: titleboom ease 2s infinite;
+}
+.contentError a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background: #202020;
+    color: #fff;
+}
+
+@keyframes titleboom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
